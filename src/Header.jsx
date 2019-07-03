@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const headStyles = {
 
@@ -7,9 +9,9 @@ const headStyles = {
 function Header() {
     return (
         <div id='head-panel' style = {headStyles}>
-            <h1>The Real GrassDoor</h1>
+             <Link to ="/"><h1>The Real GrassDoor</h1></Link>
             <h5>Find a Job</h5>
-            <h5>For Employers</h5>
+            <Link to ="/employers"><h5>For Employers</h5></Link>
             <button class ='buttons'>Sign In</button>
             <button class='buttons'> Post Jobs Free</button>
             <style jsx>{`

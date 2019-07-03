@@ -9,12 +9,10 @@ import Footer from './Footer';
 function EmployerPage() {
     return (
         <div>
-           <Header/>
            <EmployerJoin/>
            <Enhanced/>
            <BrandAdvertising/>
            <AppDynamicsAd/>
-           <Footer/>
         </div>
     );
 }

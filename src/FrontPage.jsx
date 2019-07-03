@@ -7,7 +7,6 @@ import Header from './Header';
 function FrontPage() {
     return (
         <div>
-             <Header/>
             <SignUp />
             <WorksForYou/>
             <Explore/>
