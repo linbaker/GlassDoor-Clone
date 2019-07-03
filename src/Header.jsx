@@ -28,6 +28,7 @@ function Header() {
                 text-align: center;
                 font-size: 15px;
                 border-radius: 10px;
+                height: 40px;
             }
             `}</style>
         

@@ -6,7 +6,8 @@ import Apply from './assets/briefcase.png';
 
 const worksStyles = {
     backgroundColor: '#f5f6f7',
-    margin: '0'
+    margin: '0',
+    paddingBottom: '21px'
 };
 
 function WorksForYou() {
