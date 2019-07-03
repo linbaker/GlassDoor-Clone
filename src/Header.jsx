@@ -12,8 +12,8 @@ function Header() {
              <Link to ="/"><h1>The Real GrassDoor</h1></Link>
             <h5>Find a Job</h5>
             <Link to ="/employers"><h5>For Employers</h5></Link>
-            <button class ='buttons'>Sign In</button>
-            <button class='buttons'> Post Jobs Free</button>
+            <button className ='buttons'>Sign In</button>
+            <button className ='buttons'> Post Jobs Free</button>
             <style jsx>{`
              #head-panel{
                 display: flex;
