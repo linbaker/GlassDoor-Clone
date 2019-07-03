@@ -13,7 +13,7 @@ function BrandAdvertising() {
     return (
         <div id='ad-panel' style = {worksStyles}>
             <h2>Brand Advertising</h2>
-            <hr/>
+            <hr class='green'/>
             <h1>Reach the talent you're looking for</h1>
                 <div id='ads'>
                 <div id ='find'>

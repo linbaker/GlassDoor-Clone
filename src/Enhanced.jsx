@@ -13,7 +13,7 @@ function Enhanced() {
     return (
         <div id='profile-panel' style = {profileStyles}>
             <h2>Enhanced Profile</h2>
-            <hr/>
+            <hr className='green'/>
             <h1>Make an impact</h1>
                 <div id='profile-icons'>
                 <div id ='skyline'>
@@ -54,7 +54,7 @@ function Enhanced() {
                 display: flex;
                 color: green;
             }
-            hr {
+            hr.green{
                 width: 75px;
                 height: 3px;
                 background-color: green;

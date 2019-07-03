@@ -7,7 +7,7 @@ const appDynamicStyles = {
     height: '500px',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'top center',
+    backgroundPosition: 'bottom center',
     color: 'white'
 
 };
