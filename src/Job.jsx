@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import {jobData} from './assets/JobData';
-import NewMessageControl from './NewMessageControl';
+import {formVisible} from './NewMessageControl';
 
 function Job(props){
  
