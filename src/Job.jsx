@@ -9,7 +9,7 @@ function Job(props){
          
     <h3>{props.title}</h3>
     <p><em>{props.company}</em></p>
-    <p><em>{props.salary}</em></p>
+    <p><em> $ {props.salary}</em></p>
     <br/><br/>
     <hr/>
 
