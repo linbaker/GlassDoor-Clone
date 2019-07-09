@@ -10,7 +10,7 @@ function Header() {
     return (
         <div id='head-panel' style = {headStyles}>
              <Link to ="/"><h1>The Real GrassDoor</h1></Link>
-            <h5>Find a Job</h5>
+            <Link to = "/findjobs"><h5>Find a Job</h5></Link>
             <Link to ="/employers"><h5>For Employers</h5></Link>
             <button className ='buttons'>Sign In</button>
             <button className ='buttons'> Post Jobs Free</button>

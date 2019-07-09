@@ -7,6 +7,7 @@ import Header from './Header';
 import Footer from './Footer';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
+import JobList from './JobList';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Switch>
     <Route exact path='/' component={FrontPage} />
     <Route path='/employers' component={EmployerPage} />
+    <Route path='/findjobs' component={JobList} />
     <Route component={Error404} />
       </Switch>
       <Footer/>
